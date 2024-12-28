@@ -1,0 +1,25 @@
+// @use "../base/variables" as vars;
+
+// Variables locales
+$container-mobile: 320px;
+$container-tablet: 760px;
+$container-desktop: 1440px;
+
+// Contenedores
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media (min-width: $container-mobile) {
+    max-width: $container-mobile;
+  }
+
+  @media (min-width: $container-tablet) {
+    max-width: $container-tablet;
+  }
+
+  @media (min-width: $container-desktop) {
+    max-width: $container-desktop;
+  }
+}
