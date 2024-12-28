@@ -1,0 +1,12 @@
+.index-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1); // Borde tenue
+    border-radius: 8px; // Esquinas redondeadas
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.03); // Sombras suaves
+    padding: 2rem 1rem 6rem 1rem; // Espaciado interno
+    background-color: #fff; // Fondo blanco (opcional)
+    box-sizing: border-box;
+
+}

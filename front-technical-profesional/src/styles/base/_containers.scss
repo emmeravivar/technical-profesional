@@ -7,9 +7,17 @@ $container-desktop: 1440px;
 
 // Contenedores
 .container {
+  background-color: lavender;
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+
 
   @media (min-width: $container-mobile) {
     max-width: $container-mobile;
